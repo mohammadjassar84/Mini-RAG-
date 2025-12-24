@@ -18,3 +18,16 @@ This is the minimal implementaion of the RAG  model for question answering.
 ```bash
  $ conda activate mini-rag
 ```
+## installation     
+### install the required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+
+### setup the enviroment variables 
+
+```bash 
+$ cp .env.example .env
+```
+set your  envirroment varibales in the `.env` file.  Like `OPENAI_API_KEY` value.
